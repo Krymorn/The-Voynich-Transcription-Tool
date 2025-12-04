@@ -1,6 +1,15 @@
 # The Voynich Transcription Tool (TVTT)
 Create your own Voynich Manuscript transcription or translation based on the v101 transcription.
 
+## Features:
+  - Positional context mapping at the front and end of words using syntax (see below).
+  - Multi-character input and output mapping (Eg. "55=4o")
+  - Syntax features for functionality purposes.
+      - @ at the end of a line means use that mapping if the character is at the start of the line (Eg. "56=9@"). 
+      - / at the end of a line means use that mapping if the character is at the end of the line (Eg. "57=9/").
+      - ) at the beginning of a line in the input_mapping.txt file means that line will be ignored (Essentially commented out) (Eg. ")58=9").
+      - Nothing special in the line just works normally for any position in the transcription (Note: The same character can be mapped multiple times if you put special syntax on the other line(s).)
+
 ## Tutorial:
   **NOTE:** Do not touch v101.txt and v101_cleaned.txt!<br />
   **NOTE:** Each mapping must be on a new line!
