@@ -24,5 +24,5 @@ Create your own Voynich Manuscript transcription or translation based on the v10
   
   &emsp;3. Run the main.py program and open the output.txt file to see your transcription (Using the examples above, setting "59=9/" in the number_mapping.txt and "59=us" in the output_mapping.txt file will replace all the "9" characters at the end of words with "us" in the output.txt file.)
 
-  **Notes:**
-      Thanks for checking this tool out (or at least reading this post)! If you have feature requests or ideas, please comment! This is a work in progress and I'd love suggestions!
+  **Notes:**<br />
+  &emsp;Thanks for checking this tool out (or at least reading this post)! If you have feature requests or ideas, please comment! This is a work in progress and I'd love suggestions!
