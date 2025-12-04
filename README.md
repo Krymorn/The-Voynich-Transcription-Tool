@@ -15,14 +15,10 @@ Create your own Voynich Manuscript transcription or translation based on the v10
   **NOTE:** Each mapping must be on a new line!
 
   **Syntax:** (Note: Special syntax only works in the number_mapping.txt file, not the output_mapping.txt file.)<br />
-  
-  &emsp;- @ at the end of a line means use that mapping if the character is at the start of the line (Eg. "56=9@").<br />
-  
-  &emsp;- / at the end of a line means use that mapping if the character is at the end of the line (Eg. "57=9/").<br />
-  
-  &emsp;- ) at the beginning of a line in the input_mapping.txt file means that line will be ignored (Essentially commented out) (Eg. ")58=9").<br />
-  
-  &emsp;- Nothing special in the line just works normally for any position in the transcription (Note: Multiple of the same character can be used if you put special syntax on the line.)
+  - @ at the end of a line means use that mapping if the character is at the start of the line (Eg. "56=9@").<br />
+  - / at the end of a line means use that mapping if the character is at the end of the line (Eg. "57=9/").<br />
+  - ) at the beginning of a line in the input_mapping.txt file means that line will be ignored (Essentially commented out) (Eg. ")58=9").<br />
+  - Nothing special in the line just works normally for any position in the transcription (Note: Multiple of the same character can be used if you put special syntax on the line.)
 
 
   **Instructions:**
