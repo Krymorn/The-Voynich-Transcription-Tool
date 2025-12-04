@@ -1,4 +1,4 @@
-# Voynich-Transcription-Tool
+# The Voynich Transcription Tool (TVTT)
 Create your own Voynich Manuscript transcription or translation based on the v101 transcription.
 
 ## Tutorial:
