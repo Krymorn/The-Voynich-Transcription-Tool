@@ -18,7 +18,7 @@ Create your own Voynich Manuscript transcription or translation based on the v10
 
   **Instructions:**
   
-  &emsp;1. Remap the number_mapping.txt file for each v101.txt transcription character (Optionally using the special syntax, Eg. "59=9/")<br />
+  &emsp;1. Remap the number_mapping.txt file for each v101.txt transcription character (Can be mulitple letters corrosponding to one number, Eg. "60=4o") (Optionally using the special syntax, Eg. "59=9/")<br />
   
   &emsp;2. Remap the output_mapping.txt file with the corosponding output letter(s) (Can be mulitple letters, Eg. "59=us")<br />
   
