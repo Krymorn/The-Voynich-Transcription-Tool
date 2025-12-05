@@ -3,6 +3,8 @@
 #
 # A tool for remapping the v101 transcription of the voynich manuscript.
 # TVTT accounts for optional contextual mapping (Eg. A character meaning something different at the beginning of a word versus the end versus the middle) (see README.md)
+# 
+# Note: The v101 transcription used does not include the v101 extended character set.
 
 ### Setup ###
 # Setup file names
