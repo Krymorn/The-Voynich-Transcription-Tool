@@ -23,11 +23,13 @@ Create your own Voynich Manuscript transcription or translation based on the v10
 
   ### Instructions:
   
-  &emsp;1. Remap the number_mapping.txt file for each v101.txt transcription character (Can be mulitple letters corrosponding to one number, Eg. "60=4o") (Optionally using the special syntax, Eg. "59=9/")<br />
+  &emsp;1. Download the .zip file from the main page of this repository and unpack it. Navigate to the directory you unpacked the files to.<br />
   
-  &emsp;2. Remap the output_mapping.txt file with the corosponding output letter(s) (Can be mulitple letters, Eg. "59=us")<br />
+  &emsp;2. Open and remap the number_mapping.txt file for each v101.txt transcription character (Can be mulitple letters corrosponding to one number, Eg. "60=4o") (Optionally using the special syntax, Eg. "59=9/")<br />
   
-  &emsp;3. Run the main.py program and open the output.txt file to see your transcription (Using the examples above, setting "59=9/" in the number_mapping.txt and "59=us" in the output_mapping.txt file will replace all the "9" characters at the end of words with "us" in the output.txt file.)
+  &emsp;3. Open and remap the output_mapping.txt file with the corosponding output letter(s) (Can be mulitple letters, Eg. "59=us")<br />
+  
+  &emsp;4. Run the main.py program and open the output.txt file to see your transcription (Using the examples above, setting "59=9/" in the number_mapping.txt and "59=us" in the output_mapping.txt file will replace all the "9" characters at the end of words with "us" in the output.txt file.)
 
 ## Notes:
   &emsp;Thanks for checking this tool out (or at least reading this post)! If you have feature requests or ideas, please comment! This is a work in progress and I'd love suggestions!
