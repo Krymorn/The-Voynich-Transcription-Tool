@@ -15,7 +15,7 @@ Create your own Voynich Manuscript transliteration based on the v101 transcripti
 &emsp;`number_mapping.txt` converts v101 characters into numeric placeholders.<br />
 &emsp;`output_mapping.txt` converts those numbers into your final characters.
 
-  **NOTE:** Do not touch `v101.txt` and `v101_cleaned.txt`! (Although the `v101_cleaned.txt` file can be extremely useful for other use cases as it gets rid of the < and > characters and everything inside of them. Feel free to download just that file for your own use.)<br />
+  **NOTE:** Do not touch `v101.txt` and `v101_cleaned.txt`! (Although the `v101_cleaned.txt` file can be extremely useful for other use cases as it gets rid of the `<` and `>` characters and everything inside of them. Feel free to download just that file for your own use.)<br />
   
   **NOTE:** Each mapping must be on a new line for both `number_mapping.txt` and `output_mapping.txt`!<br>
 
