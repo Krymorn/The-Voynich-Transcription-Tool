@@ -16,7 +16,7 @@ outputv101Path = "output_numbers.txt"
 with open(inputPath, "r") as inputFile:
   inputData = inputFile.read()
 
-  # Remove - and = characters which typically mark the end of a line in the v101 transcription and are unnecessary here
+  # Remove - and = characters which typically mark the end of a line in the v101 transcription but are unnecessary here
   inputData = inputData.replace("-", "")
   inputData = inputData.replace("=", "")
 
