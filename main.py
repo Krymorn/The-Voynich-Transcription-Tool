@@ -16,6 +16,10 @@ outputv101Path = "output_numbers.txt"
 with open(inputPath, "r") as inputFile:
   inputData = inputFile.read()
 
+  # Remove - and = characters which typically mark the end of a line in the v101 transcription and are unnecessary here
+  inputData = inputData.replace("-", "")
+  inputData = inputData.replace("=", "")
+
 # Read output mapping file
 with open(inputMapPath, "r") as inputMapFile:
   inputMapData = inputMapFile.read()
@@ -51,12 +55,6 @@ with open(mapPath, "r") as mapFile:
   # Read each line
   for line in mapFile:
     line = line.strip()
-
-    # Clean up - and = characters which typically mark the end of a line in the v101 transcription
-    if "-" in line:
-      line = line.replace("-", "")
-    elif "=" in line:
-      line = line.replace("=", "")
 
     # Ignore lines that are empty, formatted wrong, or are commented out by a ) character
     if not line or "=" not in line or line.startswith(")"):
