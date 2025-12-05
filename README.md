@@ -23,7 +23,7 @@ Create your own Voynich Manuscript transliteration or translation based on the v
 
   ### Instructions:
   
-  &emsp;1. Download the .zip file from the main page of this repository and unpack it. Navigate to the directory you unpacked the files to.<br />
+  &emsp;1. Download the .zip file from the latest release and unpack it. Navigate to the directory you unpacked the files to.<br />
   
   &emsp;2. Open and remap the number_mapping.txt file for each v101.txt transliteration character (Can be mulitple letters corrosponding to one number, Eg. "60=4o") (Optionally using the special syntax, Eg. "59=9/")<br />
   
