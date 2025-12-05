@@ -45,7 +45,7 @@ Create your own Voynich Manuscript transliteration based on the v101 transcripti
 A: v101 is one of the standard transcription systems for representing Voynich Manuscript characters in a text format.
 
 **Q: Is this a translation tool?**  
-A: No. This is a transliteration tool, not a translation engine. It remaps Voynich characters into user-defined characters or strings.
+A: No. This is a transliteration tool, not a translation engine. It remaps the Voynich Manuscript characters into user-defined characters or strings.
 
 **Q: Can one Voynich character map to multiple output characters?**  
 A: Yes. The tool supports multi-character output (e.g. `59=us`).
