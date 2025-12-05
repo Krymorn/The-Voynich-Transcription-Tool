@@ -1,0 +1,63 @@
+# Contributing to The Voynich Transliteration Tool (TVTT)
+
+The Voynich Transliteration Tool (TVTT) is currently developed and maintained by a single author. However, contributions, suggestions, and feedback are very welcome.
+
+You do **not** need to be a programmer to contribute — reports, ideas, documentation fixes, and research suggestions are all valuable.
+
+## Bug Reports
+
+If you find a bug, please open an issue with the label:
+
+**Bug Report**
+
+Include as much of the following as possible:
+- A clear description of the problem  
+- Steps to reproduce the issue  
+- Your operating system (Windows, macOS, Linux)
+- Your Python version (if applicable)
+- Any error messages shown in the terminal
+
+The more detail you provide, the easier it is to fix.
+
+## Feature & Improvement Requests
+
+New ideas are always welcome.
+
+When submitting a request, please include:
+- What the feature should do
+- Why it would be useful
+- Whether it relates to Voynich research or general usability
+
+Use the label:
+
+**Feature / Improvement Request**
+
+## Documentation Improvements
+
+If you find parts of the documentation confusing or incomplete, you can:
+
+- Open an issue describing what should be changed  
+**or**
+- Submit a pull request with corrected wording
+
+Improving clarity in the README, comments, or instructions is incredibly helpful.
+
+## Code Contributions
+
+If you’d like to contribute code:
+
+1. Fork the repository
+2. Create a new branch for your change
+3. Add clear comments where needed
+4. Keep changes focused and clean
+5. Submit a pull request explaining what you changed and why
+
+All code must remain:
+- Readable
+- Safe
+- Well-documented
+- Relevant to this project's purpose
+
+-----
+
+Thank you for helping improve this project!
