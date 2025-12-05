@@ -56,6 +56,6 @@ def main():
 
   process_file(args.input_file, args.output_file)
 
-
+# Run main
 if __name__ == "__main__":
   main()
