@@ -34,7 +34,7 @@ Create your own Voynich Manuscript transliteration based on the v101 transcripti
   
   &emsp;3. Open and remap the `output_mapping.txt` file as needed with the corresponding output character(s) (Optionally can be multiple letters, e.g. `59=us`) (Note: Only change the characters in the mapping, not the numbers. If you have added lines to `input_mapping.txt` then you should add the corresponding lines with the correct numbers, otherwise those character mappings will be ignored. Also, mappings in `output_mapping.txt` will be ignored if there is no corresponding mapping in `input_mapping.txt` and vice versa.)<br />
   
-  &emsp;4. Run the main.py program and open the `output.txt` file to see your transliteration (Using the examples above, setting `59=9/` in the `input_mapping.txt` and `59=us` in the `output_mapping.txt` file will replace all the `9` characters at the end of words with `us` in the `output.txt` file) (Note: `.` represents spaces and `,` represents ambiguous spaces.)
+  &emsp;4. Run the main.py program and open the `output.txt` file to see your transliteration (Using the examples above, setting `59=9/` in the `input_mapping.txt` and `59=us` in the `output_mapping.txt` file will replace all the `9` characters at the end of words with `us` in the `output.txt` file) (Note: `=` represents spaces and `-` represents ambiguous spaces.)
 
 ### How it works:
 `v101_cleaned.txt` → `input_mapping.txt` → `output_numbers.txt` → `output_mapping.txt` → `output.txt`
@@ -59,10 +59,10 @@ These only work inside `input_mapping.txt`.
 **Q: Can this help decode the Voynich Manuscript?**  
 A: It is not a decoding solution by itself, but it can assist researchers in testing substitution schemes and hypotheses.
 
-**Q: Why are `.` and `,` in the output?**  
+**Q: Why are `=` and `-` in the output?**  
 A: By default:
-- `.` = space  
-- `,` = ambiguous space  
+- `=` = space  
+- `-` = ambiguous space  
 
 You can change these in `output_mapping.txt`.
 
