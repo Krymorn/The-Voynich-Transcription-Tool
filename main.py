@@ -12,15 +12,11 @@ mapPath = "input_mapping.txt"
 inputMapPath = "output_mapping.txt"
 inputPath = "v101_cleaned.txt"
 outputPath = "output.txt"
-outputv101Path = "output_numbers.txt"
+outputNumberPath = "output_numbers.txt"
 
 # Read input
 with open(inputPath, "r") as inputFile:
   inputData = inputFile.read()
-
-  # Remove - and = characters which typically mark the end of a line in the v101 transcription but are unnecessary here
-  inputData = inputData.replace("-", "")
-  inputData = inputData.replace("=", "")
 
 # Read output mapping file
 with open(inputMapPath, "r") as inputMapFile:
@@ -28,7 +24,7 @@ with open(inputMapPath, "r") as inputMapFile:
 
 # Output
 outputFile = open(outputPath, "w")
-outputv101File = open(outputv101Path, "w")
+outputNumberFile = open(outputNumberPath, "w")
 
 # Setup lists
 num_to_char_normal = {}
@@ -232,7 +228,7 @@ def getNum(inputChar, index, data):
 
 ### Main ###
 # Start file with a . for formatting purposes
-outputv101File.write(".")
+outputNumberFile.write(".")
 
 # Use a while loop to allow skipping indices for multi-character matches
 i = 0
@@ -241,14 +237,14 @@ while i < len(inputData):
 
   # Write newlines as needed
   if ch == "\n":
-    outputv101File.write("\n")
-    outputFile.write("\n")
+    outputNumberFile.write("\n.")
+    outputFile.write("\n.")
     i += 1
     continue
 
-  # Write # and , as needed
-  if ch in ["#", ","]:
-    outputv101File.write(ch + ".")
+  # Write = and - as needed
+  if ch in ["=", "-"]:
+    outputNumberFile.write(ch + ".")
     outputFile.write(ch)
     i += 1
     continue
@@ -276,12 +272,12 @@ while i < len(inputData):
   decoded = getChar(encoded, i, inputData, match_len)
 
   # Write to output files
-  outputv101File.write(encoded + ".")
+  outputNumberFile.write(encoded + ".")
   outputFile.write(decoded)
 
   # Increment index by the length of the matched token
   i += match_len
 
 # Close output files
-outputv101File.close()
+outputNumberFile.close()
 outputFile.close()
